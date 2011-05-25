@@ -112,6 +112,8 @@ EOM
             def to_key
               [id]
             end
+            def [](name)
+            end
           CODE
           yield m if block_given?
         end
